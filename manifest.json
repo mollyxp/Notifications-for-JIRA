@@ -1,0 +1,29 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/icon19.png",
+         "38": "icons/icon38.png"
+      },
+      "default_title": "Notifications for JIRA®"
+   },
+   "description": "Notifications for JIRA®",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyZk5MioQ/au+bUp9KEpyY0eN0MicHK/weiETLfZ9FSIWfulBmTff/6csg0hqK8LFg55vgkVCiMlqoG9dENVq+UEWYC8/wFJgaRB1vrtxndPnGoddWmnyKJegeD4rWrJOavAUQEpT2bXQfbLE1bWJ7NF5wPkbA9ql+LzaMpR8ruqKpyBRi+c1b+NElwS9DhK7CdM3zCd22T4PnTd6b8FYCPINDQZkDZS2rJ1WipKdJc5YBZ4QeeuAhH5cj4npCcvl9alaWINfjaxqe7vNKtONUve4M7lyurT5eForwdU6hiNCAMilElHHUHJdj5QVpTdGDR1M+F2J2u7mcFE7yzMmvwIDAQAB",
+   "manifest_version": 2,
+   "name": "Notifications for JIRA®",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "notifications", "storage", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.0",
+   "web_accessible_resources": [ "icons/*.png", "background.js", "options.js", "options.html" ]
+}
