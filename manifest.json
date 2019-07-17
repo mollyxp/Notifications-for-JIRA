@@ -9,6 +9,12 @@
       },
       "default_title": "Notifications for JIRA®"
    },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "*://*.atlassian.net/*" ],
+      "run_at": "document_start"
+   } ],
    "description": "Notifications for JIRA®",
    "icons": {
       "128": "icons/icon128.png",
